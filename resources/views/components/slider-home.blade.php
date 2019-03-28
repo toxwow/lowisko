@@ -40,8 +40,8 @@
                     <h2 id="sec-heading">Miejsce pełne natury.</h2>
                     <p id="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at laoreet lectus. In hac habitasse platea dictumst. In auctor faucibus ex, in ullamcorper est facilisis id. Cras at eros in tortor placerat pulvinar in id metus. Sed varius odio diam, sed facilisis lectus porttitor dapibus. Nullam vel tempor sem. Nullam id consequat elit.</p>
                     <div id="button-wrapper">
-                        <a class="btn-primary" style="color:white;">Restauracja</a>
-                        <a class="btn-secondary">Łowisko</a>
+                        <a href="{{route('restaurant')}}" class="btn-primary" style="color:white;">Restauracja</a>
+                        <a href="{{route('lowisko')}}" class="btn-secondary">Łowisko</a>
                     </div>
                 </div>
             </div>
