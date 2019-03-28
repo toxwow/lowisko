@@ -1,0 +1,125 @@
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .header{
+        width: 100%;
+        height: auto;
+        display: none !important;
+    }
+
+    .section{
+        margin: 0;
+    }
+
+    /*.section.three {*/
+        /*display: none;*/
+    /*}*/
+    .header-mobile{
+        display: block;
+    }
+
+    #button-wrapper{
+        flex-direction: column;
+    }
+
+    #button-wrapper .btn-primary{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .section.first {
+        background-image: url('/img/leaf.png') ;
+        background-position: left center;
+    }
+    #button-wrapper .btn-secondary{
+        width: 100%;
+    }
+
+     .btn-primary.outline{
+        width: 100%;
+    }
+
+    .second .box-price-wrapper {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .second .box-price-wrapper .footer {
+        background-color: #ffffff;
+        border-top: 1px solid #f3f3f3
+    }
+
+    .section.second {
+         background-image: none;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        box-shadow: 0px 9px 13px rgba(0,0,0,0.1);
+        padding: 20px;
+        margin: 16px -20px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width: 995.98px) {
+    .section.first {
+        background-image: url(/img/leaf.png), url(/img/talerz.png);
+        background-position: left center , right center;
+        background-size: 35%;
+        background-repeat: no-repeat;
+    }
+    .btn-primary.outline{
+        background-color: white;
+    }
+
+    .section.second {
+        background-image: none;
+    }
+
+    .second .box-price-wrapper {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .second .box-price-wrapper .footer {
+        background-color: #ffffff;
+        border-top: 1px solid #f3f3f3
+    }
+
+
+
+}
+
+@media (max-width: 825px) {
+    .arrow-wrapper{
+        display: none;
+    }
+
+    button.slick-arrow{
+        display: none !important;
+    }
+
+    .slick-slide:not(.slick-center){
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+
+}
+
+
+
+@media (max-width: 1199.98px) {
+
+}
+
+
+
+@media (max-height: 630px){
+    .header{
+        min-height: 700px;
+    }
+}
