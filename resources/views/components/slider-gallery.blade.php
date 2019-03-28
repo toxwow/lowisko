@@ -107,6 +107,8 @@
                 draggable: true,
                 centerMode: true,
                 slidesToShow: 3,
+                prevArrow: $('.prev'),
+                nextArrow: $('.next'),
                 responsive: [
                     {
                         breakpoint: 1024,
@@ -128,6 +130,8 @@
                             variableWidth: false,
                             adaptiveHeight: false,
                             centerMode: false,
+                            prevArrow: $('.prev'),
+                            nextArrow: $('.next'),
                         }
                     },
                     {
@@ -139,6 +143,8 @@
                             variableWidth: false,
                             adaptiveHeight: false,
                             centerMode: false,
+                            prevArrow: $('.prev'),
+                            nextArrow: $('.next'),
                         }
                     }
                     // You can unslick at a given breakpoint now by adding:

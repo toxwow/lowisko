@@ -30,7 +30,7 @@
         margin-bottom: 10px;
     }
     .section.first {
-        background-image: url('/img/leaf.png') ;
+        background-image: url('../img/leaf.png') ;
         background-position: left center;
     }
     #button-wrapper .btn-secondary{
@@ -61,11 +61,27 @@
         margin: 16px -20px;
     }
 
+    .price-list-wrapper .time-wrapper{
+        margin-left: 0;
+        padding: 50px 0;
+    }
+
+    .price-list-wrapper .time-wrapper .wrapper-rules-button {
+        width: calc(100% - 30px);
+    }
+
+    .price-list-wrapper .time-wrapper ul {
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+
 }
 
 @media (min-width:768px) and (max-width: 995.98px) {
     .section.first {
-        background-image: url(/img/leaf.png), url(/img/talerz.png);
+        background-image: url('../img/leaf.png'), url('../img/talerz.png');
         background-position: left center , right center;
         background-size: 35%;
         background-repeat: no-repeat;

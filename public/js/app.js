@@ -1903,6 +1903,43 @@ __webpack_require__.r(__webpack_exports__);
           'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
           'price': 2,
           'img': './img/menu/wedzone.png'
+        }],
+        'dodatki': [{
+          'name': 'Frytki',
+          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'price': 5,
+          'img': './img/menu/chips.png'
+        }, {
+          'name': 'Ziemnaki pieczone',
+          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'price': 5,
+          'img': './img/menu/potato.png'
+        }, {
+          'name': 'Surówka',
+          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'price': 5,
+          'img': './img/menu/salat.png'
+        }],
+        'ciasta': [{
+          'name': 'Beza',
+          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'price': '13.00 PLN',
+          'img': './img/menu/cake-2.png'
+        }, {
+          'name': 'Torcik Ewuni',
+          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'price': '10.00 PLN',
+          'img': './img/menu/cake-1.png'
+        }, {
+          'name': 'Sernik z dyni',
+          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'price': '9.00 PLN',
+          'img': './img/menu/cake-3.png'
+        }, {
+          'name': 'I wiele innych',
+          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'price': 'Zapytaj obsługi o ofertę',
+          'img': './img/menu/cake-4.png'
         }]
       }
     };
@@ -37736,7 +37773,7 @@ var render = function() {
                 _c(
                   "div",
                   { staticClass: "row" },
-                  _vm._l(_vm.menu.ryby, function(item) {
+                  _vm._l(_vm.menu.dodatki, function(item) {
                     return _c("div", { staticClass: "col-12 col-md-4" }, [
                       _c("div", { staticClass: "item-wrapper" }, [
                         _c("div", { staticClass: "img-wrapper" }, [
@@ -37771,8 +37808,8 @@ var render = function() {
                 _c(
                   "div",
                   { staticClass: "row" },
-                  _vm._l(_vm.menu.ryby, function(item) {
-                    return _c("div", { staticClass: "col-12 col-md-4" }, [
+                  _vm._l(_vm.menu.ciasta, function(item) {
+                    return _c("div", { staticClass: "col-12 col-md-6" }, [
                       _c("div", { staticClass: "item-wrapper" }, [
                         _c("div", { staticClass: "img-wrapper" }, [
                           _c("div", {
@@ -37790,7 +37827,7 @@ var render = function() {
                           ]),
                           _vm._v(" "),
                           _c("p", { staticClass: "price" }, [
-                            _vm._v(_vm._s(item.price) + ".00 PLN / 100g")
+                            _vm._v(_vm._s(item.price))
                           ])
                         ])
                       ])

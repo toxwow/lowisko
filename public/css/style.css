@@ -291,6 +291,8 @@ footer{
 
 .wrapper-steps > div{
     cursor: pointer;
+    width: 33%;
+    text-align: center;
 }
 
 .wrapper-steps:before{
@@ -310,9 +312,9 @@ footer{
 .wrapper-steps .active:before{
     position: absolute;
     content: '';
-    width: 120%;
+    width: 100%;
     margin: 0 auto;
-    left: -10%;
+    left: 0;
     right: 0;
     height: 3px;
     background-color: #80CE3B;
@@ -326,7 +328,7 @@ footer{
     }
 
     100%{
-        width: 120%;
+        width: 50%;
     }
 }
 
@@ -637,5 +639,135 @@ textarea.form-control {
     margin-top: 0.5rem;
     margin-bottom: 0;
 }
+
+.price-list-wrapper{
+    margin: 45px 0 90px;
+}
+
+.price-list-wrapper .rules-wrapper{
+    background: #FFFFFF;
+    box-shadow: 0 0 12px -3px rgba(0,0,0,0.20);
+    padding: 20px;
+    height: 86%;
+    margin: 6% 0;
+    z-index: 3;
+    position: relative;
+}
+
+.price-list-wrapper .rules-wrapper p.title{
+    text-align: center;
+    position: relative;
+    color: #303034;
+    font-size: 1.1rem;
+}
+
+.price-list-wrapper .rules-wrapper p.title span{
+    color: #80CE3B;
+    font-size: 1.5rem;
+    margin: 0 5px;
+}
+
+.price-list-wrapper .rules-wrapper p.title:before{
+    content: '';
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #F2F2F2;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+
+
+.price-list-wrapper .rules-wrapper ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+
+.price-list-wrapper .rules-wrapper ul li{
+    position: relative;
+    padding: 10px 0;
+}
+
+.price-list-wrapper .rules-wrapper ul li:before{
+    content: ' ';
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/list-icon.svg");
+    background-size: cover;
+    position: absolute;
+    left: -25px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+.price-list-wrapper .rules-wrapper ul li:nth-child(even):before{
+    opacity: 0.7;
+}
+
+.price-list-wrapper .time-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #80CE3B;
+    margin-left: -60px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.price-list-wrapper .time-wrapper p.title{
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+.price-list-wrapper .time-wrapper ul{
+    list-style: none;
+    width: 80%;
+    margin-left: -60px;
+}
+
+.price-list-wrapper .time-wrapper ul li{
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1;
+    padding: 10px;
+    color: white;
+}
+
+.price-list-wrapper .time-wrapper ul li::before {
+    border-bottom: 1px dotted white;
+    content: "";
+    flex-grow: 1;
+    height: 1em;
+    order: 2;
+    margin: 0 3px;
+}
+
+.price-list-wrapper .time-wrapper ul li .amount {
+    order: 3;
+    padding-top: 0.5em;
+}
+
+.price-list-wrapper .time-wrapper .wrapper-rules-button {
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+    width: calc(100% + 30px);
+    background-color: #4C8F11;
+    color: white;
+}
+
+.price-list-wrapper .time-wrapper .wrapper-rules-button a{
+    color: white;
+    text-decoration: none;
+}
+
 
 
