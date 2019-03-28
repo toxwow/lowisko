@@ -81,37 +81,37 @@
                             'name': 'Karp',
                             'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
                             'price': 6,
-                            'img': '/img/menu/karp.png'
+                            'img': '../img/menu/karp.png'
                         },
                         {
                             'name': 'Jesiotr',
                             'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
                             'price': 2,
-                            'img': '/img/menu/jesiotr.png'
+                            'img': '../img/menu/jesiotr.png'
                         },
                         {
                             'name': 'Rosół z ryby',
                             'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
                             'price': 6,
-                            'img': '/img/menu/rosol.png'
+                            'img': '../img/menu/rosol.png'
                         },
                         {
                             'name': 'Pstrąg',
                             'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
                             'price': 2,
-                            'img': '/img/menu/pstrag.png'
+                            'img': '../img/menu/pstrag.png'
                         },
                         {
                             'name': 'Amur',
                             'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
                             'price': 6,
-                            'img': '/img/menu/amur.png'
+                            'img': '../img/menu/amur.png'
                         },
                         {
                             'name': 'Ryby wędzone',
                             'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
                             'price': 2,
-                            'img': '/img/menu/wedzone.png'
+                            'img': '../img/menu/wedzone.png'
                         },
                     ]
                 }
