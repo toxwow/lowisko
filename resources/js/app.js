@@ -22,6 +22,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('menu-component', require('./components/MenuComponent.vue').default);
+Vue.component('lake-component', require('./components/LakeComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

@@ -20,19 +20,19 @@
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div class="wrapper-box">
-                        <p class="value">11ha</p>
+                        <p class="value">11.00ha</p>
                         <p class="desc">wielkość obiektu</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="wrapper-box">
-                        <p class="value">1900kg</p>
+                        <p class="value">27 000kg</p>
                         <p class="desc">ryb w stawie</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="wrapper-box">
-                        <p class="value">58</p>
+                        <p class="value">52</p>
                         <p class="desc">dostępnych stanowisk</p>
                     </div>
                 </div>
@@ -71,6 +71,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="section-staw-desc">
+            <div class="container">
+                <lake-component></lake-component>
             </div>
         </div>
 

@@ -77,6 +77,12 @@
         margin-bottom: 50px;
     }
 
+    .about-subpage.header-wrapper .wrapper-text{
+
+        right: 5%;
+        width: 90%;
+    }
+
 }
 
 @media (min-width:768px) and (max-width: 995.98px) {

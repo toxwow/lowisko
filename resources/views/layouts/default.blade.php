@@ -42,7 +42,7 @@
                         <a class="nav-link" href="{{route('lowisko')}}">Łowisko</a>
                     </li>
                     <li class="nav-item {{ setActive('o-nas') }}">
-                        <a class="nav-link" href="#">O nas</a>
+                        <a class="nav-link" href="{{route('about')}}">O nas</a>
                     </li>
                     <li class="nav-item {{ setActive('galeria') }}">
                         <a class="nav-link" href="#">Galeria</a>
