@@ -59,8 +59,15 @@
 
 .navbar{
     padding: 1.2rem 1rem;
-    box-shadow: 0 -4px 35px -10px rgba(0,0,0,0.43);
+    /*box-shadow: 0 -4px 35px -10px rgba(0,0,0,0.43);*/
     z-index: 2;
+}
+
+div.wrapper-menu{
+    box-shadow: 0 -4px 35px -10px rgba(0,0,0,0.43);
+    background-color: white;
+    z-index: 99999;
+    position: relative;
 }
 
 .bg-light{
@@ -874,10 +881,10 @@ textarea.form-control {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: test 50s infinite ease;
+    animation: test1 50s infinite ease;
 }
 
-@keyframes test {
+@keyframes test1 {
     0% {transform: scale(1.0);}
     50% {
         transform: scale(1.4);

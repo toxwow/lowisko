@@ -22,8 +22,10 @@
 </head>
 <body>
     <div id="app">
+        <div class="wrapper-menu">
+        <div class="container">
         <nav class="navbar navbar-expand-md navbar-light bg-light" style="height: 90px">
-            <div class="container">
+
                 <a class="navbar-brand" href="{{route('home')}}"><img class='logo' src="{{asset('img/logo.svg')}}" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,8 +54,10 @@
                     </li>
                 </ul>
             </div>
-            </div>
         </nav>
+
+        </div>
+        </div>
 
             <div class="content">
                 @yield('content')
