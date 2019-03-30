@@ -45,7 +45,7 @@
                         <a class="nav-link" href="{{route('about')}}">O nas</a>
                     </li>
                     <li class="nav-item {{ setActive('galeria') }}">
-                        <a class="nav-link" href="#">Galeria</a>
+                        <a class="nav-link" href="{{route('gallery')}}">Galeria</a>
                     </li>
                     <li class="nav-item {{ setActive('kontakt') }}">
                         <a class="nav-link" href="#">Kontakt</a>

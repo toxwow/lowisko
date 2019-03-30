@@ -3,6 +3,9 @@
 
 @section('content')
     <div class="about-subpage header-wrapper">
+        <div class="wrapper-img">
+            <div class="img"></div>
+        </div>
         <div class="wrapper-text">
             <p class="title">O nas</p>
             <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur earum eius, esse exercitationem ipsum, laborum maiores neque nisi obcaecati pariatur provident quia quod sapiente soluta, tempora tenetur unde voluptate.</p>
@@ -37,3 +40,4 @@
         </div>
     </div>
 @stop
+

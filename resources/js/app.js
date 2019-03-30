@@ -7,6 +7,8 @@
 
 require('./bootstrap');
 
+require('simplelightbox/dist/simple-lightbox.js');
+
 window.Vue = require('vue');
 
 /**

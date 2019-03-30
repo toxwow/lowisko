@@ -856,14 +856,35 @@ textarea.form-control {
 
 .about-subpage.header-wrapper{
     width: 100%;
-    height: 70vh;
-    background-image: url("../img/about-img.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 45vh;
     position: relative;
     margin-bottom: 210px;
 }
+
+.about-subpage.header-wrapper .wrapper-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.about-subpage.header-wrapper .wrapper-img div.img{
+    background-image: url("../img/about-img.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: test 50s infinite ease;
+}
+
+@keyframes test {
+    0% {transform: scale(1.0);}
+    50% {
+        transform: scale(1.4);
+    }
+    100%{transform: scale(1.0);}
+}
+
 
 .about-subpage.header-wrapper .wrapper-text{
     position: absolute;
