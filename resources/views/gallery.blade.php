@@ -29,8 +29,8 @@
                     <div class="clear"></div>
                 </div>
                 <div class="col-6 col-md-4 my-2 gallery-item">
-                    <a href="{{asset('img/gallery/lowisko-2.jpg')}}">
-                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-2.jpg')}})">
+                    <a href="{{asset('img/gallery/lowisko-2.JPG')}}">
+                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-2.JPG')}})">
                             <div class="zoom" style="line-height: 250px; text-align: center">
                                 <img src="{{asset('img/search-icon.png')}}" style="width: 30px; height: 30px;" alt="">
                             </div>
@@ -39,8 +39,8 @@
                     <div class="clear"></div>
                 </div>
                 <div class="col-6 col-md-4 my-2 gallery-item">
-                    <a href="{{asset('img/gallery/lowisko-3.jpg')}}">
-                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-3.jpg')}})">
+                    <a href="{{asset('img/gallery/lowisko-3.JPG')}}">
+                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-3.JPG')}})">
                             <div class="zoom" style="line-height: 250px; text-align: center">
                                 <img src="{{asset('img/search-icon.png')}}" style="width: 30px; height: 30px;" alt="">
                             </div>
@@ -49,8 +49,8 @@
                     <div class="clear"></div>
                 </div>
                 <div class="col-6 col-md-4 my-2 gallery-item">
-                    <a href="{{asset('img/gallery/lowisko-4.jpg')}}">
-                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-4.jpg')}})">
+                    <a href="{{asset('img/gallery/lowisko-4.JPG')}}">
+                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-4.JPG')}})">
                             <div class="zoom" style="line-height: 250px; text-align: center">
                                 <img src="{{asset('img/search-icon.png')}}" style="width: 30px; height: 30px;" alt="">
                             </div>
@@ -59,8 +59,8 @@
                     <div class="clear"></div>
                 </div>
                 <div class="col-6 col-md-4 my-2 gallery-item">
-                    <a href="{{asset('img/gallery/lowisko-5.jpg')}}">
-                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-5.jpg')}})">
+                    <a href="{{asset('img/gallery/lowisko-5.JPG')}}">
+                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-5.JPG')}})">
                             <div class="zoom" style="line-height: 250px; text-align: center">
                                 <img src="{{asset('img/search-icon.png')}}" style="width: 30px; height: 30px;" alt="">
                             </div>
@@ -69,8 +69,8 @@
                     <div class="clear"></div>
                 </div>
                 <div class="col-6 col-md-4 my-2 gallery-item">
-                    <a href="{{asset('img/gallery/lowisko-6.jpg')}}">
-                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-6.jpg')}})">
+                    <a href="{{asset('img/gallery/lowisko-6.JPG')}}">
+                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-6.JPG')}})">
                             <div class="zoom" style="line-height: 250px; text-align: center">
                                 <img src="{{asset('img/search-icon.png')}}" style="width: 30px; height: 30px;" alt="">
                             </div>
