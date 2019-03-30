@@ -18,8 +18,8 @@
         <div class="container mb-5">
             <div class="row gallery">
                 <div class="col-6 col-md-4 my-2 gallery-item">
-                    <a href="{{asset('img/gallery/lowisko-1.jpg')}}">
-                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-1.jpg')}})">
+                    <a href="{{asset('img/gallery/lowisko-1.JPG')}}">
+                        <div class="item" style="background-image: url({{asset('img/gallery/lowisko-1.JPG')}})">
                             <div class="zoom" style="line-height: 250px; text-align: center">
                                 <img src="{{asset('img/search-icon.png')}}" style="width: 30px; height: 30px;" alt="">
                             </div>
