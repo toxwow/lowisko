@@ -78,8 +78,9 @@ $( window ).resize(function() {
 });
 
 
-$('.right').click(function () {
+$('.arrow.right').click(function () {
     activeStep = activeStep+1;
+    console.log('dupa');
     if(activeStep < arrayImgLenght){
         slider('next' , activeStep);
     }
@@ -89,7 +90,7 @@ $('.right').click(function () {
     }
 })
 
-$('.left').click(function () {
+$('.arrow.left').click(function () {
     activeStep = activeStep-1;
     if(activeStep < 0){
         activeStep = arrayImgLenght-1;

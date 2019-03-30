@@ -32,7 +32,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="wrapper-values">
-                    <img src="{{asset('img/eco.svg')}}" alt="">
+                    <img src="{{asset('img/eco.svg')}}" alt="" style="margin-bottom: 32px">
                     <p class="title">Ekologiczne produkty</p>
                     <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at eligendi totam veniam! Architecto assumenda, consequuntur culpa eius facilis possimus sequi. Laborum.</p>
                 </div>
