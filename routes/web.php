@@ -13,7 +13,7 @@
 
 
 Route::get('/', 'HomeController@index') -> name('home');
-Route::post('', 'HomeController@email');
+Route::post('/', 'HomeController@email')->name('form');
 Route::get('/restauracja', 'RestaurantController@index') -> name('restaurant');
 Route::get('/lowisko', 'LowiskoController@index') -> name('lowisko');
 Route::get('/o-nas', 'AboutController@index') -> name('about');
