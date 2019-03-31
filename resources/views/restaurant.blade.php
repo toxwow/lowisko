@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('pageTitle', 'Restauracja')
+@section('pageTitle', ' Restauracja')
 
 @section('content')
 <div class="subpage">
@@ -11,7 +11,9 @@
                         <p>zdrowe, ekologiczne, ryby</p>
                         <h1>Ryby z pieca i nietylko</h1>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi asperiores autem, commodi consequuntur cupiditate dolor dolore ex exercitationem illum iste iusto magnam minima molestias numquam officia pariatur praesentium quibusdam repellat repudiandae sapiente sint voluptate!</p>
+                    <p>
+                        W naszej ofercie znajdą Państwo szeroki wachlarz pieczonych ryb z pieca konwekcyjnego, bez zbędnego, niezdrowego tłuszczu! Ryby podawane są z dodatkami, które każdy klient wybiera indywidualnie. Na deser propnujemy Państwu domowe ciasta, własnego autorstwa.
+                    </p>
                 </div>
             </div>
         </div>

@@ -988,3 +988,15 @@ h3.value-title{
 .sl-wrapper .sl-image {
     z-index: 99999999;
 }
+
+.modal-dialog {
+    position: absolute;
+    width: auto;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 164px;
+    pointer-events: none;
+}

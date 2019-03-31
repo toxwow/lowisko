@@ -130,8 +130,6 @@
                             variableWidth: false,
                             adaptiveHeight: false,
                             centerMode: false,
-                            prevArrow: $('.prev'),
-                            nextArrow: $('.next'),
                         }
                     },
                     {
@@ -143,8 +141,6 @@
                             variableWidth: false,
                             adaptiveHeight: false,
                             centerMode: false,
-                            prevArrow: $('.prev'),
-                            nextArrow: $('.next'),
                         }
                     }
                     // You can unslick at a given breakpoint now by adding:

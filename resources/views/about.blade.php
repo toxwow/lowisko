@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('pageTitle', 'O nas')
+@section('pageTitle', ' O nas')
 
 @section('content')
     <div class="about-subpage header-wrapper">

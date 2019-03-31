@@ -13,8 +13,12 @@
                         <h3>Smak ekologicznej ryby</h3>
                     </div>
                     <div class="description-wrapper">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at laoreet lectus. In hac habitasse platea dictumst. In auctor faucibus ex, in ullamcorper est facilisis id. Cras at eros in tortor placerat pulvinar in id metus. Sed varius odio diam, sed facilisis lectus porttitor dapibus. Nullam vel tempor sem. Nullam id consequat elit.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at laoreet lectus. In hac habitasse platea dictumst. In auctor faucibus ex, in ullamcorper est facilisis id. Cras at eros</p>
+                        <p>
+                            Ryba, którą serwujemy naszym klientom, pochodzi ze stawów, którymi sami jesteśmy właścicielami. Dzięki temu jesteśmy w stanie zagwarantować, iż nasza ryba  karmiona jest w sposób ekologiczny - przenicą, jęczmieniem czy żytem.
+                        </p>
+                        <p>
+                            Wszystkie ryby pieczemu w piecu konwencyjnym, aby wydobyć z nich całą kwintesencje smaku. W naszej ofercie znajdą Państwo takie ryby jak: pstrąg, karp, jesiotr, szczupak i wiele innych.
+                        </p>
                     </div>
                     <a href="{{route('restaurant')}}"><button class="btn-primary outline mt-4">Zobacz menu</button></a>
                 </div>
@@ -59,7 +63,9 @@
                         <p>DLA NAJBARDZIEJ WYMAGAJĄCYCH</p>
                         <h3>Idealne miejsce dla wędkarzy</h3>
                         <div class="description-wrapper">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at laoreet lectus. In hac habitasse platea dictumst. In auctor faucibus ex, in ullamcorper est facilisis id. Cras at eros in tortor placerat pulvinar in id metus. Sed varius odio diam, sed facilisis lectus porttitor dapibus. Nullam vel tempor sem. Nullam id consequat elit.</p>
+                            <p>
+                                Zbiorniki, które udostępniamy wędkarzom są staranie przygotowane. Groble są systemtycznie koszone tak, aby zagwarantować każdemu z was pełen komfort podczas łowienia. W zbiornikach znajduję się ponad 10 000 kg ryb różnego rodzaju gatunku: karpi, jesiotrów, karasi czy ryb drapieżnych, takich jak szczupaki.
+                            </p>
                         </div>
                         <a href="{{route('lowisko')}}"><button class="btn-primary outline mt-4">Dowiedz się więcej</button></a>
                     </div>
@@ -80,10 +86,10 @@
             </div>
         </div>
     </div>
-    <div class="section four">
+    <div class="section four d-none d-md-block">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 d-none d-md-block">
+                <div class="col-12 col-md-6">
 
                     <div class="map-wrapper">
                         <div id="map"></div>
@@ -96,10 +102,11 @@
                         <h3>Skontaktuj się z nami</h3>
                     </div>
                     <div class="form-wrapper">
-                        <form action="" class="form-group">
-                            <input type="text" class="form-control my-4" placeholder="Imię">
-                            <input type="text" class="form-control my-4" placeholder="Adres e-mail">
-                            <textarea type="text" class="form-control my-4" rows="4" placeholder="Wiadomość"></textarea>
+                        <form action="{{url('/')}}" method="post" class="form-group">
+                            {{csrf_field()}}
+                            <input type="text" required name="name" class="form-control my-4" placeholder="Imię">
+                            <input type="email" required name="email" class="form-control my-4" placeholder="Adres e-mail">
+                            <textarea type="text" required name="content" class="form-control my-4" rows="4" placeholder="Wiadomość"></textarea>
                             <button type="submit" class="btn btn-primary w-100">Wyślij wiadomość</button>
                         </form>
                     </div>
@@ -107,10 +114,65 @@
             </div>
         </div>
     </div>
+    <div class="subpage d-block d-md-none">
+        <div class="container number">
+            <div class="row">
+                <div class="col-12">
+                    <div class="heading-wrapper">
+                        <p>MASZ PYTANIA?</p>
+                        <h3>Skontaktuj się z nami</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wrapper-box">
+                        <p class="desc">
+                            <img src="{{asset('img/mail.png')}}" style="width: 20px;  margin-bottom: 2px; margin-right: 10px" alt="">
+                            kontakt@łowiskogrodzisko.pl</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wrapper-box">
+                        <p class="desc">
+                            <img src="{{asset('img/phone.png')}}" style="width: 20px; margin-bottom: 2px; margin-right: 10px" alt=""><a href="tel:+4866763216">+48 667 632 161</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wrapper-box">
+                        <p class="desc">
+                            <img src="{{asset('img/placeholder.png')}}" style="width: 20px;  margin-bottom: 2px; margin-right: 10px" alt="">ul. Zamkowa, Wręczyca Mała</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @if(session()->has('sucess'))
+        <div class="modal fade bd-example-modal-lg" tabindex="99999" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Dziękujemy</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Twoja wiadomość została wysłana poprawnie. Wkrótce dostaniesz odpowiedź zwrotną.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    @endif
+
 
 @push('script')
     <script src="{{asset('js/maps.js')}}"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUa7FRpVZj2k4RKKm5BLSi9EUk4nN5xpI&callback=initMap" async defer></script>
-
+    <script>
+        $(document).ready(function() {
+            $('.modal').modal('show');
+        });
+    </script>
 @endpush
 @stop

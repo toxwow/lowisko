@@ -50,7 +50,7 @@
                         <a class="nav-link" href="{{route('gallery')}}">Galeria</a>
                     </li>
                     <li class="nav-item {{ setActive('kontakt') }}">
-                        <a class="nav-link" href="#">Kontakt</a>
+                        <a class="nav-link" href="{{route('contact')}}">Kontakt</a>
                     </li>
                 </ul>
             </div>

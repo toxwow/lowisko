@@ -2049,32 +2049,32 @@ __webpack_require__.r(__webpack_exports__);
       menu: {
         ryby: [{
           'name': 'Karp',
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'description': 'Karpia podajemy przeważnie w dzownkach, dzięki czemu z łatwością obiera się go z ości. Mięso jest delikatne i nie śmierdzi "mułem".  Konsumowany regularnie korzystnie wpływa na pracę serca, pamięć i odporność organizmu. ',
           'price': 6,
           'img': './img/menu/karp.png'
         }, {
           'name': 'Jesiotr',
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
-          'price': 2,
+          'description': 'Mięso z jesiotra jest delikatne i smaczne, a przede wszystkim całkowicie pozbawione ości. Dostarcza naszemu organizmowi cennych mikroelemntów - fosforu i potasu, witaminy A. Dzięki czemu reguluję pracę serca, stanowi budulec kości i zębów.',
+          'price': 7,
           'img': './img/menu/jesiotr.png'
         }, {
           'name': 'Rosół z ryby',
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
-          'price': 6,
+          'description': 'Zupa rybna jest bardzo zdrową potrawą, a zarazem pyszna i sycąca. Zawiera wiele niezbędnych  składników odżywczych. Zastosowany proces obróbki termicznej w postaci gotowania, nie zabija wartościowych kwasów omega-3.  ',
+          'price': 9,
           'img': './img/menu/rosol.png'
         }, {
           'name': 'Pstrąg',
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
-          'price': 2,
+          'description': 'Pstrąg ma bladoróżowe, delitakne chude mięso. Sposród wszystkich ryb słodkowodnych to pstrąg dostarcza najwięcej cennych kwasów omega-3, które korzystnie wypływają na cerę, prace serca czy układu krążenia.',
+          'price': 6,
           'img': './img/menu/pstrag.png'
         }, {
           'name': 'Amur',
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'description': 'Amur należy do ryb karpiowatych. Jego mięso jest białe, bardzo delikatne, soczyste i jędrne. W porównaniu do karpia, mięso z amura jest dużo chudsze. Amur ma również mniej ości, które łatwo odchodzą od mięsa.',
           'price': 6,
           'img': './img/menu/amur.png'
         }, {
           'name': 'Ryby wędzone',
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'description': 'W naszej ofercie znajdą Państwo wędzone karpie, jesiotry, pstrągi oraz amury. Wędzenie odbywa się regularnie we wtorki i soboty. Najczęściej do wędzenia wykorzystujemy drewno z wiśni.',
           'price': 2,
           'img': './img/menu/wedzone.png'
         }],
@@ -39170,19 +39170,26 @@ var render = function() {
                           })
                         ]),
                         _vm._v(" "),
-                        _c("div", { staticClass: "content-wrapper" }, [
-                          _c("p", { staticClass: "title" }, [
-                            _vm._v(" " + _vm._s(item.name) + " ")
-                          ]),
-                          _vm._v(" "),
-                          _c("p", { staticClass: "description" }, [
-                            _vm._v(_vm._s(item.description))
-                          ]),
-                          _vm._v(" "),
-                          _c("p", { staticClass: "price" }, [
-                            _vm._v(_vm._s(item.price) + ".00 PLN / 100g")
-                          ])
-                        ])
+                        _c(
+                          "div",
+                          {
+                            staticClass: "content-wrapper",
+                            staticStyle: { height: "280px" }
+                          },
+                          [
+                            _c("p", { staticClass: "title" }, [
+                              _vm._v(" " + _vm._s(item.name) + " ")
+                            ]),
+                            _vm._v(" "),
+                            _c("p", { staticClass: "description" }, [
+                              _vm._v(_vm._s(item.description))
+                            ]),
+                            _vm._v(" "),
+                            _c("p", { staticClass: "price" }, [
+                              _vm._v(_vm._s(item.price) + ".00 PLN / 100g")
+                            ])
+                          ]
+                        )
                       ])
                     ])
                   }),
@@ -39205,19 +39212,26 @@ var render = function() {
                           })
                         ]),
                         _vm._v(" "),
-                        _c("div", { staticClass: "content-wrapper" }, [
-                          _c("p", { staticClass: "title" }, [
-                            _vm._v(" " + _vm._s(item.name) + " ")
-                          ]),
-                          _vm._v(" "),
-                          _c("p", { staticClass: "description" }, [
-                            _vm._v(_vm._s(item.description))
-                          ]),
-                          _vm._v(" "),
-                          _c("p", { staticClass: "price" }, [
-                            _vm._v(_vm._s(item.price) + ".00 PLN / 100g")
-                          ])
-                        ])
+                        _c(
+                          "div",
+                          {
+                            staticClass: "content-wrapper",
+                            staticStyle: { height: "280px" }
+                          },
+                          [
+                            _c("p", { staticClass: "title" }, [
+                              _vm._v(" " + _vm._s(item.name) + " ")
+                            ]),
+                            _vm._v(" "),
+                            _c("p", { staticClass: "description" }, [
+                              _vm._v(_vm._s(item.description))
+                            ]),
+                            _vm._v(" "),
+                            _c("p", { staticClass: "price" }, [
+                              _vm._v(_vm._s(item.price) + ".00 PLN / 100g")
+                            ])
+                          ]
+                        )
                       ])
                     ])
                   }),
@@ -39240,19 +39254,26 @@ var render = function() {
                           })
                         ]),
                         _vm._v(" "),
-                        _c("div", { staticClass: "content-wrapper" }, [
-                          _c("p", { staticClass: "title" }, [
-                            _vm._v(" " + _vm._s(item.name) + " ")
-                          ]),
-                          _vm._v(" "),
-                          _c("p", { staticClass: "description" }, [
-                            _vm._v(_vm._s(item.description))
-                          ]),
-                          _vm._v(" "),
-                          _c("p", { staticClass: "price" }, [
-                            _vm._v(_vm._s(item.price))
-                          ])
-                        ])
+                        _c(
+                          "div",
+                          {
+                            staticClass: "content-wrapper",
+                            staticStyle: { height: "280px" }
+                          },
+                          [
+                            _c("p", { staticClass: "title" }, [
+                              _vm._v(" " + _vm._s(item.name) + " ")
+                            ]),
+                            _vm._v(" "),
+                            _c("p", { staticClass: "description" }, [
+                              _vm._v(_vm._s(item.description))
+                            ]),
+                            _vm._v(" "),
+                            _c("p", { staticClass: "price" }, [
+                              _vm._v(_vm._s(item.price))
+                            ])
+                          ]
+                        )
                       ])
                     ])
                   }),
