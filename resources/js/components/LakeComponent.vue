@@ -4,7 +4,6 @@
             <div class="menu-wrapper">
                 <div id="fishes" @click="step=1" v-bind:class="{ active: step==1 }">Staw nr. 1</div>
                 <div id="adds" @click="step=2" v-bind:class="{ active: step==2 }">Staw nr. 2</div>
-                <div id="sweets" @click="step=3" v-bind:class="{ active: step==3 }">Staw nr. 3</div>
             </div>
         </div>
         <div class="col-12 col-md-6 my-2" style="">
@@ -14,9 +13,6 @@
             </div>
             <div class="wrapper-img lake" key="2" v-if="step === 2">
                 <img :src="staw[2].img" alt="">
-            </div>
-            <div class="wrapper-img lake" key="3" v-if="step === 3">
-                <img :src="staw[3].img" alt="">
             </div>
             </transition>
         </div>
@@ -80,36 +76,6 @@
                         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" :style="{ width: staw[2].valThree + '%' }"></div>
                     </div>
                     <p>{{staw[2].nameThree}}</p>
-                </div>
-            </div>
-            <div class="content-wrapper-lake" key="3" v-if="step === 3">
-                <p class="title">
-                    {{staw[3].name}}
-                </p>
-                <p class="desc">
-                    {{staw[3].desc}}
-                </p>
-                <div class="progress-wrapper">
-                    <div class="progress green">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" :style="{ width: staw[3].valFirst + '%' }"></div>
-                    </div>
-                    <p>{{staw[3].nameFirst}}</p>
-                </div>
-
-
-                <div class="progress-wrapper">
-                    <div class="progress green">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" :style="{ width: staw[3].valTwo + '%' }"></div>
-                    </div>
-                    <p>{{staw[3].nameTwo}}</p>
-                </div>
-
-
-                <div class="progress-wrapper">
-                    <div class="progress green">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" :style="{ width: staw[3].valThree + '%' }"></div>
-                    </div>
-                    <p>{{staw[3].nameThree}}</p>
                 </div>
             </div>
             </transition>
