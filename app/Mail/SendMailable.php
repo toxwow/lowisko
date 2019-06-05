@@ -31,8 +31,8 @@ class SendMailable extends Mailable
     public function build()
     {
         return $this->subject('Zapytanie')
-                    ->from('tommar@tommar.stronazen.pl')
-                    ->to('tommar@tommar.stronazen.pl')
+                    ->from('tomasz.tomzynski@gmail.com')
+                    ->to('tomasz.tomzynski@gmail.com')
                     ->view('email.contactmail');
     }
 }

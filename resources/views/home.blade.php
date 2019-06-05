@@ -102,7 +102,7 @@
                         <h3>Skontaktuj się z nami</h3>
                     </div>
                     <div class="form-wrapper">
-                        <form action="{{url('/kontakt)') }}" method="post" class="form-group">
+                        <form action="{{url('/kontakt') }}" method="post" class="form-group">
                             {{csrf_field()}}
                             <input type="text" required name="name" class="form-control my-4" placeholder="Imię">
                             <input type="email" required name="email" class="form-control my-4" placeholder="Adres e-mail">
