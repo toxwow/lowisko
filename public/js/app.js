@@ -1823,7 +1823,7 @@ __webpack_require__.r(__webpack_exports__);
       staw: {
         1: {
           'name': 'Staw nr. 1',
-          'desc': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at laoreet lectus. In hac habitasse platea dictumst. In auctor faucibus ex, in ullamcorper est facilisis id. Cras at eros in tortor',
+          'desc': 'Zbiornik o głębokości od 1.5m do 2.5m. W wodzie znajdują się ryby takie jak karpie królewskie, szczupaki czy jesiotry. Na tym zbiorniku ryba najczęściej ustawia się w sektorze pod lasem.',
           'valFirst': 50,
           'valTwo': 20,
           'valThree': 30,
@@ -1834,13 +1834,13 @@ __webpack_require__.r(__webpack_exports__);
         },
         2: {
           'name': 'Staw nr. 2',
-          'desc': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at laoreet lectus. In hac habitasse platea dictumst. In auctor faucibus ex, in ullamcorper est facilisis id. Cras at eros in tortor',
-          'valFirst': 30,
-          'valTwo': 50,
-          'valThree': 20,
+          'desc': 'Zbiornik o głębokości od 1.5m do 2.5m. Na tym stawie dominują karpie pełnołuskie ze średnią wagą ok.4 kg i jest ich dużo.',
+          'valFirst': 40,
+          'valTwo': 25,
+          'valThree': 35,
           'nameFirst': 'karp',
           'nameTwo': 'szczupak',
-          'nameThree': 'karaś',
+          'nameThree': 'inne',
           'img': './img/lake/2.png'
         },
         3: {
@@ -1950,48 +1950,48 @@ __webpack_require__.r(__webpack_exports__);
         ryby: [{
           'name': 'Karp',
           'description': 'Karpia podajemy przeważnie w dzownkach, dzięki czemu z łatwością obiera się go z ości. Mięso jest delikatne i nie śmierdzi "mułem".  Konsumowany regularnie korzystnie wpływa na pracę serca, pamięć i odporność organizmu. ',
-          'price': 6,
+          'price': '7.00 PLN / 100g',
           'img': './img/menu/karp.png'
         }, {
           'name': 'Jesiotr',
           'description': 'Mięso z jesiotra jest delikatne i smaczne, a przede wszystkim całkowicie pozbawione ości. Dostarcza naszemu organizmowi cennych mikroelemntów - fosforu i potasu, witaminy A. Dzięki czemu reguluję pracę serca, stanowi budulec kości i zębów.',
-          'price': 7,
+          'price': '10.00 PLN / 100g',
           'img': './img/menu/jesiotr.png'
         }, {
           'name': 'Rosół z ryby',
           'description': 'Zupa rybna jest bardzo zdrową potrawą, a zarazem pyszna i sycąca. Zawiera wiele niezbędnych  składników odżywczych. Zastosowany proces obróbki termicznej w postaci gotowania, nie zabija wartościowych kwasów omega-3.  ',
-          'price': 9,
+          'price': '10.00 PLN',
           'img': './img/menu/rosol.png'
         }, {
           'name': 'Pstrąg',
           'description': 'Pstrąg ma bladoróżowe, delitakne chude mięso. Sposród wszystkich ryb słodkowodnych to pstrąg dostarcza najwięcej cennych kwasów omega-3, które korzystnie wypływają na cerę, prace serca czy układu krążenia.',
-          'price': 6,
+          'price': '7.00 PLN / 100g',
           'img': './img/menu/pstrag.png'
         }, {
           'name': 'Amur',
           'description': 'Amur należy do ryb karpiowatych. Jego mięso jest białe, bardzo delikatne, soczyste i jędrne. W porównaniu do karpia, mięso z amura jest dużo chudsze. Amur ma również mniej ości, które łatwo odchodzą od mięsa.',
-          'price': 6,
+          'price': '7.00 PLN / 100g',
           'img': './img/menu/amur.png'
         }, {
           'name': 'Ryby wędzone',
           'description': 'W naszej ofercie znajdą Państwo wędzone karpie, jesiotry, pstrągi oraz amury. Wędzenie odbywa się regularnie we wtorki i soboty. Najczęściej do wędzenia wykorzystujemy drewno z wiśni.',
-          'price': 2,
+          'price': '4.80 PLN / 100g',
           'img': './img/menu/wedzone.png'
         }],
         'dodatki': [{
           'name': 'Frytki',
           'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
-          'price': 5,
+          'price': '6.00 PLN / 300g',
           'img': './img/menu/chips.png'
         }, {
           'name': 'Ziemnaki pieczone',
           'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
-          'price': 5,
+          'price': '6.00 PLN / 300g',
           'img': './img/menu/potato.png'
         }, {
           'name': 'Surówka',
           'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
-          'price': 5,
+          'price': '6.00 PLN',
           'img': './img/menu/salat.png'
         }],
         'ciasta': [{
@@ -1999,16 +1999,6 @@ __webpack_require__.r(__webpack_exports__);
           'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
           'price': '13.00 PLN',
           'img': './img/menu/cake-2.png'
-        }, {
-          'name': 'Torcik Ewuni',
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
-          'price': '10.00 PLN',
-          'img': './img/menu/cake-1.png'
-        }, {
-          'name': 'Sernik z dyni',
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
-          'price': '9.00 PLN',
-          'img': './img/menu/cake-3.png'
         }, {
           'name': 'I wiele innych',
           'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
@@ -39231,7 +39221,7 @@ var render = function() {
                             staticStyle: { height: "280px" }
                           },
                           [
-                            _c("p", { staticClass: "title" }, [
+                            _c("h3", { staticClass: "title" }, [
                               _vm._v(" " + _vm._s(item.name) + " ")
                             ]),
                             _vm._v(" "),
@@ -39240,7 +39230,7 @@ var render = function() {
                             ]),
                             _vm._v(" "),
                             _c("p", { staticClass: "price" }, [
-                              _vm._v(_vm._s(item.price) + ".00 PLN / 100g")
+                              _vm._v(_vm._s(item.price))
                             ])
                           ]
                         )
@@ -39270,19 +39260,15 @@ var render = function() {
                           "div",
                           {
                             staticClass: "content-wrapper",
-                            staticStyle: { height: "280px" }
+                            staticStyle: { height: "130px" }
                           },
                           [
                             _c("p", { staticClass: "title" }, [
                               _vm._v(" " + _vm._s(item.name) + " ")
                             ]),
                             _vm._v(" "),
-                            _c("p", { staticClass: "description" }, [
-                              _vm._v(_vm._s(item.description))
-                            ]),
-                            _vm._v(" "),
                             _c("p", { staticClass: "price" }, [
-                              _vm._v(_vm._s(item.price) + ".00 PLN / 100g")
+                              _vm._v(_vm._s(item.price))
                             ])
                           ]
                         )
@@ -39312,7 +39298,7 @@ var render = function() {
                           "div",
                           {
                             staticClass: "content-wrapper",
-                            staticStyle: { height: "280px" }
+                            staticStyle: { height: "250px" }
                           },
                           [
                             _c("p", { staticClass: "title" }, [

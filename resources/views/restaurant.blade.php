@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="wrapper-button-menu">
-                        <button class="btn-secondary">Pobierz menu</button>
+                        <button class="btn-secondary" disabled >Pobierz menu</button>
                     </div>
                 </div>
             </div>

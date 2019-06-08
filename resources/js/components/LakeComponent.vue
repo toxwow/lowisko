@@ -93,7 +93,7 @@
                     1:
                         {
                             'name': 'Staw nr. 1',
-                            'desc': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at laoreet lectus. In hac habitasse platea dictumst. In auctor faucibus ex, in ullamcorper est facilisis id. Cras at eros in tortor',
+                            'desc': 'Zbiornik o głębokości od 1.5m do 2.5m. W wodzie znajdują się ryby takie jak karpie królewskie, szczupaki czy jesiotry. Na tym zbiorniku ryba najczęściej ustawia się w sektorze pod lasem.',
                             'valFirst': 50,
                             'valTwo': 20,
                             'valThree': 30,
@@ -105,13 +105,13 @@
                     2:
                         {
                             'name': 'Staw nr. 2',
-                            'desc': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at laoreet lectus. In hac habitasse platea dictumst. In auctor faucibus ex, in ullamcorper est facilisis id. Cras at eros in tortor',
-                            'valFirst': 30,
-                            'valTwo': 50,
-                            'valThree': 20,
+                            'desc': 'Zbiornik o głębokości od 1.5m do 2.5m. Na tym stawie dominują karpie pełnołuskie ze średnią wagą ok.4 kg i jest ich dużo.',
+                            'valFirst': 40,
+                            'valTwo': 25,
+                            'valThree': 35,
                             'nameFirst': 'karp',
                             'nameTwo': 'szczupak',
-                            'nameThree': 'karaś',
+                            'nameThree': 'inne',
                             'img': './img/lake/2.png'
                         },
                     3:

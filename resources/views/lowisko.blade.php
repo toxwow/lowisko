@@ -11,7 +11,7 @@
                             <p>profesjonalne</p>
                             <h1>Łowisko komercyjne</h1>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi asperiores autem, commodi consequuntur cupiditate dolor dolore ex exercitationem illum iste iusto magnam minima molestias numquam officia pariatur praesentium quibusdam repellat repudiandae sapiente sint voluptate!</p>
+                        <p><strong>Grodzisko to komerycjne stawy na której nie wymagana jest karta PZW.</strong> Łowisko znajduje się około 15 km od centrum Częstochowy.<br>W swoich wodach kryje wiele pięknych ryb: karpi, karasi, jesiotrów, amurów, sumów i szczupaków. </p>
                     </div>
                 </div>
             </div>
@@ -45,10 +45,10 @@
                         <div class="rules-wrapper">
                             <p class="title"> PLN <span>30.00</span> od wędki </p>
                             <ul>
-                                <li><b>bez ograniczeń</b> czasowych</li>
+                                <li><b>cały dzień</b> wędkowania</li>
                                 <li>możliwość <b>wypuszczenia</b> złowionych ryb</li>
                                 <li><b>bezpłatna toaleta</b> na terenie łowiska</li>
-                                <li>możliwość <b>wynajęcia maty rybackiej i podbieraka</b></li>
+                                <li>możliwość <b>wypożyczenia maty rybackiej i podbieraka</b></li>
                             </ul>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                                 </li>
                             </ul>
                             <div class="wrapper-rules-button">
-                                <a href="">Zobacz regulamin</a>
+                                <a href="{{asset('regulamin.pdf')}}" target="_blank">Zobacz regulamin</a>
                             </div>
                         </div>
                     </div>

@@ -6,10 +6,6 @@
         <div class="wrapper-img">
             <div class="img"></div>
         </div>
-        <div class="wrapper-text">
-            <p class="title">O nas</p>
-            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur earum eius, esse exercitationem ipsum, laborum maiores neque nisi obcaecati pariatur provident quia quod sapiente soluta, tempora tenetur unde voluptate.</p>
-        </div>
     </div>
     <div class="container mb-5">
         <div class="row">
@@ -20,21 +16,21 @@
                 <div class="wrapper-values">
                     <img src="{{asset('img/experience.svg')}}" alt="">
                     <p class="title">25 lat doświadczenia</p>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at eligendi totam veniam! Architecto assumenda, consequuntur culpa eius facilis possimus sequi. Laborum.</p>
+                    <p class="desc">Właściciel obiektu posiada 25 lat doświadczenia w branży rybackiej. Jest to gwarancja, iż obiekt każdego dnia jest profesjonalnie przygotwany do wędkowania, a ryby w zbiorniku są zdrowe i piękne </p>
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="wrapper-values">
                     <img src="{{asset('img/family.svg')}}" alt="">
                     <p class="title">Rodzinny biznes</p>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at eligendi totam veniam! Architecto assumenda, consequuntur culpa eius facilis possimus sequi. Laborum.</p>
+                    <p class="desc">Nasza miłość do ryb, przerodziła się w rodzinny biznes. Staramy się, aby pobyt na łowisku był jak najlepszy, a serwowane dania kreowały niepowtarzalne doznania smakowe.</p>
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="wrapper-values">
                     <img src="{{asset('img/eco.svg')}}" alt="" style="margin-bottom: 32px">
                     <p class="title">Ekologiczne produkty</p>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at eligendi totam veniam! Architecto assumenda, consequuntur culpa eius facilis possimus sequi. Laborum.</p>
+                    <p class="desc">Ryby, które serwujemy naszym klientom pochodzą z naszych własnych stawów. Ryba karmiona jest w sposób ekologiczny - przenicą, jęczmieniem czy żytem.</p>
                 </div>
             </div>
         </div>
