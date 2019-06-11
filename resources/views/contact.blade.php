@@ -27,7 +27,7 @@
                 <div class="col-12 col-md-4">
                     <div class="wrapper-box">
                         <p class="desc">
-                            <img src="{{asset('img/phone.png')}}" style="width: 20px; margin-bottom: 2px; margin-right: 10px" alt=""><a href="tel:+4866763216">+48 667 632 161</a></p>
+                            <img src="{{asset('img/phone.png')}}" style="width: 20px; margin-bottom: 2px; margin-right: 10px" alt=""><a href="tel:+48667632161">+48 667 632 161</a></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
