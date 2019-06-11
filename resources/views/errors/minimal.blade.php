@@ -8,7 +8,11 @@
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
+<<<<<<< HEAD
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+=======
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+>>>>>>> fbf12ee069d319ef313e031397fef5add7eff564
 
         <!-- Styles -->
         <style>
