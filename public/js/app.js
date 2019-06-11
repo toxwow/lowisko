@@ -1949,7 +1949,7 @@ __webpack_require__.r(__webpack_exports__);
       menu: {
         ryby: [{
           'name': 'Karp',
-          'description': 'Karpia podajemy przeważnie w dzownkach, dzięki czemu z łatwością obiera się go z ości. Mięso jest delikatne i nie śmierdzi "mułem".  Konsumowany regularnie korzystnie wpływa na pracę serca, pamięć i odporność organizmu. ',
+          'description': 'Karpia podajemy przeważnie w dzwonkach, dzięki czemu z łatwością obiera się go z ości. Mięso jest delikatne i nie śmierdzi "mułem".  Konsumowany regularnie korzystnie wpływa na pracę serca, pamięć i odporność organizmu. ',
           'price': '7.00 PLN / 100g',
           'img': './img/menu/karp.png'
         }, {
@@ -1964,7 +1964,7 @@ __webpack_require__.r(__webpack_exports__);
           'img': './img/menu/rosol.png'
         }, {
           'name': 'Pstrąg',
-          'description': 'Pstrąg ma bladoróżowe, delitakne chude mięso. Sposród wszystkich ryb słodkowodnych to pstrąg dostarcza najwięcej cennych kwasów omega-3, które korzystnie wypływają na cerę, prace serca czy układu krążenia.',
+          'description': 'Pstrąg ma bladoróżowe, deliaktne chude mięso. Spośród wszystkich ryb słodkowodnych to pstrąg dostarcza najwięcej cennych kwasów omega-3, które korzystnie wypływają na cerę, prace serca czy układu krążenia.',
           'price': '7.00 PLN / 100g',
           'img': './img/menu/pstrag.png'
         }, {
@@ -1984,7 +1984,7 @@ __webpack_require__.r(__webpack_exports__);
           'price': '6.00 PLN / 300g',
           'img': './img/menu/chips.png'
         }, {
-          'name': 'Ziemnaki pieczone',
+          'name': 'Ziemniaki pieczone',
           'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
           'price': '6.00 PLN / 300g',
           'img': './img/menu/potato.png'
@@ -1996,12 +1996,12 @@ __webpack_require__.r(__webpack_exports__);
         }],
         'ciasta': [{
           'name': 'Beza',
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'description': 'Naszą słodką specjalnością jest tort bezowy. Są to blaty bezowe przekładane kremem na bazie serka mascarpone i śmietany z dodatkiem sezonowych owoców i konfitur. Gorąco zachęcamy do spróbowania!',
           'price': '13.00 PLN',
           'img': './img/menu/cake-2.png'
         }, {
           'name': 'I wiele innych',
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores atque consequatur ipsum nesciunt nisi quaerat quibusdam sunt tempore temporibus? Amet consectetur exercitationem fugit id nobis quibusdam saepe suscipit voluptatem!',
+          'description': 'Staramy się, aby w każdy weekend zawitało coś słodkiego! Gościem specjalnym jak zawsze jest beza, ale znajdą Państwo u nas również inne wypieki, takie jak serniki, owocowe tarty czy Brownie.',
           'price': 'Zapytaj obsługi o ofertę',
           'img': './img/menu/cake-4.png'
         }]

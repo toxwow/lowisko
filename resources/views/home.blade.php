@@ -17,7 +17,7 @@
                             Ryba, którą serwujemy naszym klientom, pochodzi ze stawów, którymi sami jesteśmy właścicielami. Dzięki temu jesteśmy w stanie zagwarantować, iż nasza ryba  karmiona jest w sposób ekologiczny - przenicą, jęczmieniem czy żytem.
                         </p>
                         <p>
-                            Wszystkie ryby pieczemu w piecu konwencyjnym, aby wydobyć z nich całą kwintesencje smaku. W naszej ofercie znajdą Państwo takie ryby jak: pstrąg, karp, jesiotr, szczupak i wiele innych.
+                            Wszystkie ryby pieczemy w piecu konwencyjnym, aby wydobyć z nich całą kwintesencję smaku. W naszej ofercie znajdą Państwo takie ryby jak: pstrąg, karp, jesiotr, szczupak i wiele innych.
                         </p>
                     </div>
                     <a href="{{route('restaurant')}}"><button class="btn-primary outline mt-4">Zobacz menu</button></a>
@@ -64,7 +64,7 @@
                         <h3>Idealne miejsce dla wędkarzy</h3>
                         <div class="description-wrapper">
                             <p>
-                                Zbiorniki, które udostępniamy wędkarzom są staranie przygotowane. Groble są systemtycznie koszone tak, aby zagwarantować każdemu z was pełen komfort podczas łowienia. W zbiornikach znajduję się ponad 10 000 kg ryb różnego rodzaju gatunku: karpi, jesiotrów, karasi czy ryb drapieżnych, takich jak szczupaki.
+                                Zbiorniki, które udostępniamy wędkarzom, są staranie przygotowane. Groble są systematycznie koszone tak, aby zagwarantować każdemu z was pełen komfort podczas łowienia. W zbiornikach znajduję się ponad 10 000 kg ryb różnego rodzaju gatunku: karpi, jesiotrów, karasi czy ryb drapieżnych, takich jak szczupaki.
                             </p>
                         </div>
                         <a href="{{route('lowisko')}}"><button class="btn-primary outline mt-4">Dowiedz się więcej</button></a>
@@ -79,7 +79,7 @@
                 <div class="col-12">
                     <div class="heading-wrapper">
                         <p>POZNAJ NAS</p>
-                        <h3>Zobacz najpiękniesze ujęcia</h3>
+                        <h3>Zobacz najpiękniejsze ujęcia</h3>
                     </div>
                     @component('components.slider-gallery')@endcomponent
                 </div>

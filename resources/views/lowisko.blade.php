@@ -11,7 +11,7 @@
                             <p>profesjonalne</p>
                             <h1>Łowisko komercyjne</h1>
                         </div>
-                        <p><strong>Grodzisko to komerycjne stawy na której nie wymagana jest karta PZW.</strong> Łowisko znajduje się około 15 km od centrum Częstochowy.<br>W swoich wodach kryje wiele pięknych ryb: karpi, karasi, jesiotrów, amurów, sumów i szczupaków. </p>
+                        <p><strong>Grodzisko to komercyjne stawy na, której nie wymagana jest karta PZW.</strong> Łowisko znajduje się około 15 km od centrum Częstochowy.<br>W swoich wodach kryje wiele pięknych ryb: karpi, karasi, jesiotrów, amurów, sumów i szczupaków. </p>
                     </div>
                 </div>
             </div>

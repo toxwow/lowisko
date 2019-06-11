@@ -9,10 +9,10 @@
                 <div class="main-text-wrapper">
                     <div class="heading-wrapper">
                         <p>zdrowe, ekologiczne, ryby</p>
-                        <h1>Ryby z pieca i nietylko</h1>
+                        <h1>Ryby z pieca i nie tylko</h1>
                     </div>
                     <p>
-                        W naszej ofercie znajdą Państwo szeroki wachlarz pieczonych ryb z pieca konwekcyjnego, bez zbędnego, niezdrowego tłuszczu! Ryby podawane są z dodatkami, które każdy klient wybiera indywidualnie. Na deser propnujemy Państwu domowe ciasta, własnego autorstwa.
+                        W naszej ofercie znajdą Państwo szeroki wachlarz pieczonych ryb z pieca konwekcyjnego, bez zbędnego, niezdrowego tłuszczu! Ryby podawane są z dodatkami, które każdy klient wybiera indywidualnie. Na deser proponujemy Państwu domowe wypieki.
                     </p>
                 </div>
             </div>

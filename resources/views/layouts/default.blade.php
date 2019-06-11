@@ -64,7 +64,7 @@
             </div>
 
         <footer>
-            copryright © 2019
+            copyright © 2019
         </footer>
     </div>
         <script   src="{{asset('js/app.js')}}"></script>
