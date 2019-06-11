@@ -1,2 +1,2 @@
-RewriteEngin
+RewriteEngine On
 RewriteRule ^$ ./public [L]
