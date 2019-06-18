@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -277,7 +277,7 @@
             }
 
             .flex {
-=======
+            }
 <!doctype html>
 <html lang="en">
     <head>
@@ -698,13 +698,11 @@
             }
 
             .md\:flex {
->>>>>>> fbf12ee069d319ef313e031397fef5add7eff564
                 display: -webkit-box;
                 display: -ms-flexbox;
                 display: flex;
             }
 
-<<<<<<< HEAD
             .items-center {
                 -webkit-box-align: center;
                     -ms-flex-align: center;
@@ -878,7 +876,6 @@
                     background-position: center;
                 }
             }
-=======
             .md\:my-6 {
                 margin-top: 1.5rem;
                 margin-bottom: 1.5rem;
@@ -910,7 +907,6 @@
                 background-position: center;
             }
         }
->>>>>>> fbf12ee069d319ef313e031397fef5add7eff564
         </style>
     </head>
     <body class="antialiased font-sans">
