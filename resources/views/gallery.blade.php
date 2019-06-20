@@ -1,5 +1,7 @@
 @extends('layouts.default')
 @section('pageTitle', ' Galeria')
+@section('description', 'Zobacz najpiękniejsze ujęcia na naszym obieckie - rekordy wędkarskie czy pyszne ryby smażone lub z pieca.')
+
 
 @section('content')
     <div class="subpage">

@@ -1,5 +1,7 @@
 @extends('layouts.default')
 @section('pageTitle', ' Kontakt')
+@section('description', 'Masz pytania? Chcesz dowiedzieć się więcej na temat wędkowania na naszym obiekcie lub ryb w naszej ofercie? Skontaktuj się z nami.')
+
 
 @section('content')
     <div class="subpage">

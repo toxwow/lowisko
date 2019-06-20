@@ -1,5 +1,7 @@
 @extends('layouts.default')
 @section('pageTitle', ' O nas')
+@section('description', 'Nasze stawy położone są w województwie Śląskim, koło Częstochowy. Mamy 25 lat doświadczenia w branży rybackiej, a nasze ryby są świeże i zdrowe.')
+
 
 @section('content')
     <div class="about-subpage header-wrapper">

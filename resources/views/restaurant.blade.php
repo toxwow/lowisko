@@ -1,5 +1,6 @@
 @extends('layouts.default')
-@section('pageTitle', ' Restauracja')
+@section('pageTitle', ' Restauracja, świeże ryby smażone i z pieca')
+@section('description', 'W naszej restauracji oferujemy świeże ryby smażone oraz z pieca. W naszej ofercie znajdą Państwo smaczne pstrągi, karpie, jesiotry i wiele innych.')
 
 @section('content')
 <div class="subpage">

@@ -1,5 +1,7 @@
 @extends('layouts.default')
-@section('pageTitle', 'Home')
+@section('pageTitle', 'Świeże ryby i wędkowanie')
+@section('description', 'Łowisko Grodzisko to idealne miejsca do wędkowania i odpoczynku na świeżym powietrzu w Częstochowie i okolicach. W naszym menu znajdą Państwo świeże i zdrowe ryby.')
+
 
 @section('content')
     @component('components.slider-home')@endcomponent

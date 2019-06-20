@@ -71,16 +71,16 @@
 <div class="slick-container">
     <div class="slick-wrapper text-center">
         <div style="padding: 0 15px">
-            <img src="{{asset('img/slick/1.png')}}" alt="" style="width: 100%; height: 100%">
+            <img src="{{asset('img/slick/1.jpg')}}" alt="" style="width: 100%; height: 100%">
         </div>
         <div style="padding: 0 15px">
-            <img src="{{asset('img/slick/2.png')}}" alt="" style="width: 100%; height: 100%">
+            <img src="{{asset('img/slick/2.jpg')}}" alt="" style="width: 100%; height: 100%">
         </div>
         <div style="padding: 0 15px">
-            <img src="{{asset('img/slick/3.png')}}" alt="" style="width: 100%; height: 100%">
+            <img src="{{asset('img/slick/3.jpg')}}" alt="" style="width: 100%; height: 100%">
         </div>
         <div style="padding: 0 15px">
-            <img src="{{asset('img/slick/4.png')}}" alt="" style="width: 100%; height: 100%">
+            <img src="{{asset('img/slick/4.jpg')}}" alt="" style="width: 100%; height: 100%">
         </div>
     </div>
 

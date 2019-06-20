@@ -1,5 +1,7 @@
 @extends('layouts.default')
-@section('pageTitle', 'Łowisko')
+@section('pageTitle', 'Idealne miejsce do wędkowania')
+@section('description', 'Każdy wędkarz na naszych stawach znajdzie to co dla niego najlepsze - po karpie, sumy, aż po pstrągi, jesiotry i szczupaki. Metoda spławikowa czy na tyczke to idealne techniki na naszym zbiorniku.')
+
 
 @section('content')
     <div class="subpage">

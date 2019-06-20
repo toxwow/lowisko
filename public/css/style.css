@@ -783,6 +783,16 @@ textarea.form-control {
     text-decoration: none;
 }
 
+.wrapper-social{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.wrapper-social a img{
+    width: 30px;
+}
+
 .section-staw-desc{
     background-image: url("../img/leaf.png");
     background-position: left center;
