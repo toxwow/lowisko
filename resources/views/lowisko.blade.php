@@ -60,11 +60,11 @@
                             <ul>
                                 <li>
                                     Poniedziałek - Piątek
-                                    <span class="amount">8:00 - 18:00</span>
+                                    <span class="amount">7:00 - 19:00</span>
                                 </li>
                                 <li>
                                     Sobota - Niedziela
-                                    <span class="amount">9:00 - 19:00</span>
+                                    <span class="amount">8:00 - 19:00</span>
                                 </li>
                             </ul>
                             <div class="wrapper-rules-button">
