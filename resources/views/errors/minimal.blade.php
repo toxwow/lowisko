@@ -33,6 +33,7 @@
                 align-items: center;
                 display: flex;
                 justify-content: center;
+                flex-direction: column;
             }
 
             .position-ref {
@@ -53,14 +54,26 @@
         </style>
     </head>
     <body>
+
         <div class="flex-center position-ref full-height">
-            <div class="code">
-                @yield('code')
+
+            <img class='logo' src="{{asset('img/logo.svg')}}" alt="" width="70">
+            <div style="display: flex; margin: 40px 0;">
+                <div class="code">
+                    @yield('code')
+                </div>
+
+                <div class="message" style="padding: 10px;">
+                    @yield('message')
+                </div>
             </div>
 
-            <div class="message" style="padding: 10px;">
-                @yield('message')
+
+
+            <div class="return">
+                <a href="{{route('home')}}">Wróć do strony głównej</a>
             </div>
         </div>
+
     </body>
 </html>
