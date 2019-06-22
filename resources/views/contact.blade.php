@@ -23,7 +23,8 @@
                     <div class="wrapper-box">
                         <p class="desc">
                             <img src="{{asset('img/mail.png')}}" style="width: 20px;  margin-bottom: 2px; margin-right: 10px" alt="">
-                            kontakt@łowiskogrodzisko.pl</p>
+                            lowiskogrodzisko@gmail.com
+                        </p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
