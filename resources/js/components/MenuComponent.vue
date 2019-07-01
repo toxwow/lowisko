@@ -107,12 +107,12 @@
                             'price': '7.00 PLN / 100g',
                             'img': './img/menu/amur.png'
                         },
-                        {
-                            'name': 'Ryby wędzone',
-                            'description': 'W naszej ofercie znajdą Państwo wędzone karpie, jesiotry, pstrągi oraz amury. Wędzenie odbywa się regularnie we wtorki i soboty. Najczęściej do wędzenia wykorzystujemy drewno z wiśni.',
-                            'price': '4.80 PLN / 100g',
-                            'img': './img/menu/wedzone.png'
-                        },
+                        // {
+                        //     'name': 'Ryby wędzone',
+                        //     'description': 'W naszej ofercie znajdą Państwo wędzone karpie, jesiotry, pstrągi oraz amury. Wędzenie odbywa się regularnie we wtorki i soboty. Najczęściej do wędzenia wykorzystujemy drewno z wiśni.',
+                        //     'price': '4.80 PLN / 100g',
+                        //     'img': './img/menu/wedzone.png'
+                        // },
                     ],
                     'dodatki':[
                         {

@@ -13,7 +13,7 @@
                         <h1>Ryby z pieca i nie tylko</h1>
                     </div>
                     <p>
-                        W naszej ofercie znajdą Państwo szeroki wachlarz pieczonych ryb z pieca konwekcyjnego, bez zbędnego, niezdrowego tłuszczu! Ryby podawane są z dodatkami, które każdy klient wybiera indywidualnie. Na deser proponujemy Państwu domowe wypieki.
+                        W naszej ofercie znajdą Państwo szeroki wachlarz pieczonych ryb z pieca konwekcyjnego, bez zbędnego, niezdrowego tłuszczu! Ryby podawane są z dodatkami, które każdy gość wybiera indywidualnie. Na deser proponujemy Państwu domowe wypieki.
                     </p>
                 </div>
             </div>
